@@ -1,23 +1,22 @@
-class Test1
+class Test
 {
-	Test1()
+	Test()
 	{
-		System.out.println("Test1...");
+		this("Parameterized Constructor...");	//Calling Param.. Constructor
+		System.out.println("Default Constructor...");
+	}
+	
+	Test(String msg)
+	{
+		System.out.println(msg);
 	}
 }
 
-class Test2
+public class This_Test1 
 {
-	Test2()
-	{
-		System.out.println("Test2...");
-	}
-}
-public class This_Test1 {
-
 	public static void main(String[] args) 
 	{
-		Test1 obj=new Test1();
+		Test obj=new Test();
 	}
 
 }

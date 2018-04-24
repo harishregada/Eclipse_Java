@@ -1,3 +1,4 @@
+package thisTest;
 class Test
 {
 	Test()

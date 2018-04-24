@@ -1,3 +1,4 @@
+package exceptionHandling;
 class Exception_Test extends Exception
 {
 	int div_err=0;
